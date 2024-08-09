@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card example</title>
+    <style>
+        body{
+            font-size: 16px;
+        }
+        .card {
+            font-size: 1.5em;
+          padding: 1em;
+          border: 1px solid #ad3535;
+          border-radius: 0.5em;
+          margin: 1em;
+         
+        }
+        .card title {
+            font-size: 1.2em;  /* 1.2*24=28.8px*/
+        }
+        .card content {
+            font-size: 1em; /* 1*24=24px */
+            padding: 0.5em; /* 0.5*24  */
+            margin: 1em;
+        }
+        .box {
+            font-size: 2em;
+            padding: 0.5em;
+            margin: 1em;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card title">card title</div>
+        <div class="card content">This is some content inside the card</div>
+    </div>
+    <div class="box">Boxs name
+        </div>
+</body>
+</html>
+
+
+/* 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>em example</title>
+    <style>
+        body {
+            font-size: 16px;
+        }
+        .div1 {
+            font-size: 1.5em; /* 1.5*16=24px */
+        
+        }
+        .div2 {
+            font-size: 2em; /* 2*24=48px */
+        }
+        .div3 {
+            font-size: 0.5em; /* 0.5*48=24px */
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        This is div1
+        <div class="div2">
+            This is div2
+            <div class="div3">
+            This is div3
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
+
+*/
